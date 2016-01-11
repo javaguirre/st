@@ -5,7 +5,7 @@
  *
  * font: see http://freedesktop.org/software/fontconfig/fontconfig-user.html
  */
-static char font[] = "Envy Code R:pixelsize=16:antialias=true:autohint=true";
+static char font[] = "FiraMono for Powerline:pixelsize=15:antialias=true:autohint=true";
 static int borderpx = 2;
 static char shell[] = "/bin/sh";
 static char *utmp = NULL;
@@ -56,24 +56,24 @@ static unsigned int tabspaces = 8;
 /* Terminal colors (16 first used in escape sequence) */
 static const char *colorname[] = {
 	/* 8 normal colors */
-	"#141414", //"#282a2e",
-	"#a54242",
-	"#8c9440",
-	"#de935f",
-	"#5f819d",
-	"#85678f",
-	"#5e8d87",
-	"#969896",
+	"#000000", //"#282a2e",
+	"#f9555f",
+	"#21b089",
+	"#fef02a",
+	"#589df6",
+	"#944d95",
+	"#1f9ee7",
+	"#bbbbbb",
 
 	/* 8 bright colors */
-	"#373b41",
-	"#cc6666",
-	"#b5bd68",
-	"#f0c674",
-	"#81a2be",
-	"#b294bb",
-	"#8abeb7",
-	"#c5c8c6",
+	"#555555",
+	"#fa8c8f",
+	"#35bb9a",
+	"#ffff55",
+	"#589df6",
+	"#e75699",
+	"#3979bc",
+	"#ffffff",
 
 	[255] = 0
 };
